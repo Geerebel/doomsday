@@ -15,7 +15,7 @@ source.dir = .
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas
 
-requirements = python3,kivy,plyer
+requirements = python3==3.7.6,hostpython3==3.7.6,kivy,pillow
 
 android.permissions = INTERNET,CAMERA
 
@@ -73,7 +73,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3
+osx.python_version = 3.7.6
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
